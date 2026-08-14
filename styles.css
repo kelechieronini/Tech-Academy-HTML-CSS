@@ -135,5 +135,29 @@ nav li {
 /* PROJECT SECTION */
 section#project-section {
     background-color: #0c151a;
-    padding-top: 50px;
+}
+
+
+#project-lead-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 250px 0px;
+}
+
+#project-lead-text {
+    color: #949494;
+    font-size: 36px;
+    font-weight: lighter !important;
+    width: 1100px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#project-lead-text-line {
+    width: 100px;
+    height: 3px;
+    background-color: #949494;
 }
