@@ -135,6 +135,7 @@ nav li {
 /* PROJECT SECTION */
 section#project-section {
     background-color: #0c151a;
+    padding: 0px 30px;
 }
 
 
@@ -160,4 +161,40 @@ section#project-section {
     width: 100px;
     height: 3px;
     background-color: #949494;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.project-card {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.project-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.project-card p {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.project-card img {
+    border-radius: 6px;
+    width: 100%;
+}
+
+.project-card:hover h3 {
+    text-decoration: underline;
 }
