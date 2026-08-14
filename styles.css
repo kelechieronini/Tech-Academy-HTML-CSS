@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    src: url('https: //fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRxC7m0dR9pBOi.woff2') format('woff2');
+    /* font-weight: 400; */
+    /* font-style: normal; */
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    margin: 0px 180px;
+}
+
+/* NAVBAR */
+nav {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.162);
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 30px;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+nav li {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+nav li:hover {
+    color: #007AFF;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+nav li {
+    list-style: none;
+    padding: 6px;
+    font-size: 15px;
+    color: #000000BC;
+}
+
+/* HERO SECTION */
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+#head-text {
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+#lead-text {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+#lead-text span {
+    color: #007AFF;
+}
+
+#support-text {
+    font-size: 26px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+    color: #6A6A6A;
+}
+
+#hero-section button {
+    background-color: #007AFF;
+    font-size: 16px;
+    padding: 12px 28px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+#hero-section button:hover {
+    background-color: #0569d4;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+#hero-cta {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+#hero-cta a {
+    color: #007AFF;
+    text-decoration: none;
+}
+
+#hero-cta a:hover {
+    text-decoration: underline;
+}
+
+
+/* PROJECT SECTION */
+section#project-section {
+    background-color: #0c151a;
+    padding-top: 50px;
+}
