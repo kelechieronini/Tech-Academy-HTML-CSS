@@ -202,5 +202,5 @@ section#project-section {
 .project-card-section-container {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 70px;
 }
