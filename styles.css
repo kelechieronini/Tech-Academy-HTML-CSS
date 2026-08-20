@@ -51,6 +51,13 @@ nav ul {
 nav li {
     cursor: pointer;
     font-weight: 500;
+    list-style: none;
+    padding: 6px;
+    font-size: 15px;
+    color: #000000BC;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 nav li:hover {
@@ -59,12 +66,7 @@ nav li:hover {
     transition-duration: 300ms;
 }
 
-nav li {
-    list-style: none;
-    padding: 6px;
-    font-size: 15px;
-    color: #000000BC;
-}
+
 
 /* HERO SECTION */
 #hero-section {
