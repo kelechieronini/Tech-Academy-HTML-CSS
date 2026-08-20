@@ -45,7 +45,7 @@ nav div {
 
 nav ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 nav li {
@@ -73,8 +73,7 @@ nav li {
     justify-content: center;
     align-items: center;
     gap: 65px;
-    height: 100vh;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 #head-text {
@@ -223,7 +222,7 @@ section#project-section {
 }
 
 .final-item p {
-    font-size: 34px;
+    font-size: 44px;
     font-weight: 300;
     line-height: 1.35;
     color: #1a1a1a;
@@ -364,7 +363,7 @@ footer {
     }
 }
 
-/* Tablets portrait / large phones */
+/* Tablets portrait */
 @media (max-width: 768px) {
     .container {
         margin: 0px 24px;
@@ -444,7 +443,7 @@ footer {
     }
 }
 
-/* Phones */
+
 @media (max-width: 480px) {
     .container {
         margin: 0px 16px;
