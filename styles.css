@@ -198,3 +198,9 @@ section#project-section {
 .project-card:hover h3 {
     text-decoration: underline;
 }
+
+.project-card-section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
