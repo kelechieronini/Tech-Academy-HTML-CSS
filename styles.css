@@ -317,3 +317,180 @@ footer {
 .footer-credit a:hover {
     text-decoration: underline;
 }
+
+/* RESPONSIVE */
+
+/* Tablets / small laptops */
+@media (max-width: 1200px) {
+    .container {
+        margin: 0px 80px;
+    }
+
+    #project-lead-text {
+        width: 100%;
+        max-width: 800px;
+        font-size: 30px;
+    }
+
+    #project-lead-text-container {
+        padding: 160px 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        margin: 0px 40px;
+    }
+
+    #lead-text {
+        font-size: 46px;
+    }
+
+    #support-text {
+        font-size: 20px;
+    }
+
+    #projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .final-grid {
+        column-gap: 50px;
+        row-gap: 60px;
+    }
+
+    .final-item p {
+        font-size: 26px;
+    }
+}
+
+/* Tablets portrait / large phones */
+@media (max-width: 768px) {
+    .container {
+        margin: 0px 24px;
+    }
+
+    nav div {
+        padding: 12px 16px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    nav ul {
+        gap: 4px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #hero-section {
+        height: auto;
+        padding: 60px 0;
+        gap: 40px;
+    }
+
+    #head-text {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #lead-text {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    #support-text {
+        font-size: 17px;
+        margin-top: 16px;
+    }
+
+    #project-lead-text {
+        font-size: 22px;
+    }
+
+    #project-lead-text-container {
+        padding: 100px 0px;
+    }
+
+    #projects {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .project-card-section-container {
+        gap: 24px;
+    }
+
+    .final-section {
+        padding: 90px 0 60px;
+    }
+
+    .final-grid {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+
+    .final-cta {
+        margin-top: 80px;
+    }
+
+    .final-cta p {
+        font-size: 18px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+    .container {
+        margin: 0px 16px;
+    }
+
+    nav img {
+        width: 70px;
+        height: auto;
+    }
+
+    nav li {
+        font-size: 13px;
+        padding: 4px;
+    }
+
+    #lead-text {
+        font-size: 26px;
+    }
+
+    #support-text {
+        font-size: 15px;
+    }
+
+    #hero-section button {
+        font-size: 14px;
+        padding: 10px 22px;
+    }
+
+    #project-lead-text {
+        font-size: 18px;
+    }
+
+    #project-lead-text-container {
+        padding: 70px 0px;
+    }
+
+    .final-item p {
+        font-size: 20px;
+    }
+
+    .purchase-btn {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    .footer-socials {
+        gap: 16px;
+    }
+}
