@@ -17,6 +17,10 @@ body {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -73,7 +77,7 @@ nav li:hover {
     position: absolute;
     top: calc(100% + 16px);
     right: 0;
-    min-width: 220px;
+    /* min-width: 220px; */
     background: #fff;
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
     border-radius: 6px;
@@ -436,7 +440,11 @@ footer {
 
     .dropdown-menu {
         right: auto;
-        left: 0;
+        left: -41px;
+    }
+
+    .dropdown-menu {
+        max-width: calc(100vw - 32px);
     }
 
     #hero-section {
